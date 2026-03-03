@@ -10,27 +10,28 @@
     <header>
         <h1>José Francisco</h1>
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
-        </nav>
-    </header>
+            <a href="#inicio">Inic<header>
+    <h1>Mi Hub</h1>
+    <nav>
+        <button onclick="mostrarSeccion('inicio')">Inicio</button>
+        <button onclick="mostrarSeccion('proyectos')">Proyectos</button>
+        <button onclick="mostrarSeccion('contacto')">Contacto</button>
+    </nav>
+</header>
 
-    <section id="inicio">
-        <h2>Bienvenido</h2>
-        <p>Estoy construyendo mi espacio en la web.</p>
+<main>
+    <section id="inicio" class="seccion activa">
+        <h2>Inicio</h2>
+        <p>Bienvenido.</p>
     </section>
 
-    <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <p>Aquí irán mis trabajos.</p>
+    <section id="proyectos" class="seccion">
+        <h2>Proyectos</h2>
+        <p>Aquí van los proyectos.</p>
     </section>
 
-    <section id="contacto">
+    <section id="contacto" class="seccion">
         <h2>Contacto</h2>
-        <p>Email: contacto@ejemplo.com</p>
+        <p>Formulario o email.</p>
     </section>
-
-    <script src="script.js"></script>
-</body>
-</html>
+</main>

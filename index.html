@@ -2,34 +2,35 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>LA PAGINA DE LA VIEJA</title>
+    <title>Mi Página</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>HOLA</h1>
-       <header>
-    <h1>Mi Hub</h1>
-    <nav>
-        <button onclick="mostrarSeccion('inicio')">Inicio</button>
-        <button onclick="mostrarSeccion('proyectos')">Proyectos</button>
-        <button onclick="mostrarSeccion('contacto')">Contacto</button>
-    </nav>
-</header>
+        <h1>José Francisco</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+    </header>
 
-<main>
-    <section id="inicio" class="seccion activa">
-        <h2>Inicio</h2>
-        <p>Bienvenido.</p>
+    <section id="inicio">
+        <h2>Bienvenido</h2>
+        <p>Estoy construyendo mi espacio en la web.</p>
     </section>
 
-    <section id="proyectos" class="seccion">
-        <h2>Proyectos</h2>
-        <p>Aquí van los proyectos.</p>
+    <section id="proyectos">
+        <h2>Mis Proyectos</h2>
+        <p>Aquí irán mis trabajos.</p>
     </section>
 
-    <section id="contacto" class="seccion">
+    <section id="contacto">
         <h2>Contacto</h2>
-        <p>Formulario o email.</p>
+        <p>Email: contacto@ejemplo.com</p>
     </section>
-</main>
+
+    <script src="script.js"></script>
+</body>
+</html>

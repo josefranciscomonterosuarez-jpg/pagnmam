@@ -1,12 +1,10 @@
-function mostrarSeccion(id) {
-    // Ocultar todas
-    document.querySelectorAll(".seccion").forEach(sec => {
-        sec.classList.remove("activa");
+console.log("Script cargado correctamente");
+
+document.addEventListener("DOMContentLoaded", function() {
+    const titulo = document.querySelector("h1");
+
+    titulo.addEventListener("click", function() {
+        titulo.style.color = "cyan";
+        alert("Bienvenido a mi página 🚀");
     });
-
-    // Mostrar la seleccionada
-    document.getElementById(id).classList.add("activa");
-
-    // Cambiar clase del body para cambiar color
-    document.body.className = id;
-}
+});

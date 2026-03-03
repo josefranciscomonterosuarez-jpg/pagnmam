@@ -1,24 +1,28 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+.seccion {
+    display: none;
+    padding: 40px;
+    transition: all 0.3s ease;
+}
+
+.seccion.activa {
+    display: block;
+}
+
+body.inicio {
     background-color: #111;
-    color: white;
 }
 
-header {
-    background: #222;
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+body.proyectos {
+    background-color: #1a0033;
 }
 
-nav a {
-    color: white;
-    margin-left: 15px;
-    text-decoration: none;
+body.contacto {
+    background-color: #002b36;
 }
 
-section {
-    padding: 60px 20px;
+button {
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
 }

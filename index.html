@@ -2,35 +2,60 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Mi Página</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.A.T.E.</title>
+
+    <!-- Vinculamos el CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+    <!-- ================= HEADER ================= -->
     <header>
-        <h1>José Francisco</h1>
+        <div class="logo">M.A.T.E.</div>
+
+        <!-- NAV: todas las opciones son placeholders -->
         <nav>
-            <a href="#inicio">Inicio</a>
-            <a href="#proyectos">Proyectos</a>
-            <a href="#contacto">Contacto</a>
+            <a href="#">Inicio</a>
+            <a href="#">Quiénes Somos</a>
+            <a href="#">Experiencias</a>
+            <a href="#">Material Gratuito</a>
+            <a href="#">Campus Virtual</a>
+            <a href="#">Actividades</a>
         </nav>
+
+        <div class="auth">
+            <a href="#">Log In</a>
+            <a href="#">Sign In</a>
+        </div>
     </header>
 
-    <section id="inicio">
-        <h2>Bienvenido</h2>
-        <p>Estoy construyendo mi espacio en la web.</p>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero">
+
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+            <h1>Claves para que ocurra el aprendizaje</h1>
+            <p>Involucrarnos cognitiva y afectivamente con los alumnos</p>
+            <button>Ir al Campus</button>
+        </div>
+
     </section>
 
-    <section id="proyectos">
-        <h2>Mis Proyectos</h2>
-        <p>Aquí irán mis trabajos.</p>
+
+    <!-- ================= SECCION INFO ================= -->
+    <section class="info">
+        <h2>Movimiento Académico de Transformación Educativa</h2>
+        <p>
+            Educación que evoluciona, transforma y genera impacto real.
+            Aprender no es repetir, es cambiar.
+        </p>
     </section>
 
-    <section id="contacto">
-        <h2>Contacto</h2>
-        <p>Email: contacto@ejemplo.com</p>
-    </section>
-
+    <!-- Vinculamos el JS -->
     <script src="script.js"></script>
+
 </body>
 </html>

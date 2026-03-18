@@ -16,7 +16,16 @@ document.querySelectorAll('nav a').forEach(link => {
         }
     });
 });
+// Seleccionamos todos los links
+const links = document.querySelectorAll("a");
 
+// Les agregamos evento click
+links.forEach(link => {
+    link.addEventListener("click", function(event) {
+        event.preventDefault(); // evita que recargue la pagina
+        console.log("Placeholder activo");
+    });
+});
 // ===== ANIMACIÓN DEL TÍTULO =====
 document.addEventListener("DOMContentLoaded", function() {
     const titulo = document.querySelector("h1");
